@@ -1,7 +1,7 @@
 // Start - initialisation
 // TODO # 1
 $(() => {
-    $.get('../json/imgdata.json', (jsonData) => {                //FETCH JSON DATA
+    $.get('json/imgdata.json', (jsonData) => {                //FETCH JSON DATA
         getDestination(jsonData);
     });
     $('#modal-close').click(() => {
